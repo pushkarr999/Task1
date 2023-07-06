@@ -15,8 +15,8 @@
 ## Usage
 ### Using deployed backend
 The server is deployed on the link : https://task1-utopia.onrender.com/ <br>
-GET request for fetching all users - https://task1-utopia.onrender.com/api/auth/
-![Screenshot of get](https://github.com/pushkarr999/Task1/blob/main/output-screenshots/get.PNG)
+    GET request for fetching all users - https://task1-utopia.onrender.com/api/auth/
+<img src="https://github.com/pushkarr999/Task1/blob/main/output-screenshots/get.PNG" width="400"/> <br>
     POST request for register - https://assignment-utopia-deployment.onrender.com/api/auth/register
       JSON Body - {
                       "email" : "test1@123.com",
