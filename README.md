@@ -38,8 +38,8 @@
                   }
 
 ### For locally running the backend
-  After cloning the project.
-  run following commands -
-  npm install
-  npm run server
+  After cloning the project. <br>
+  run following commands - <br>
+  npm install <br>
+  npm run server <br>
   The server will run on PORT 5000
