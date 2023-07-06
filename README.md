@@ -11,12 +11,12 @@
     * Minimum 8 character length.
   - Cannot delete a user from database without valid password.
   - Refresh token after acces token expires in 120s.
-
+<img src="/output-screenshots/get.png" width="128"/>
 ## Usage
 ### Using deployed backend
     The server is deployed on the link : https://task1-utopia.onrender.com/
     GET request for fetching all users - https://task1-utopia.onrender.com/api/auth/
-    <img src="/output-screenshots/get.png" width="128"/>
+    
     POST request for register - https://assignment-utopia-deployment.onrender.com/api/auth/register
       JSON Body - {
                       "email" : "test1@123.com",
