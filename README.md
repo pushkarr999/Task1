@@ -16,7 +16,7 @@
 ### Using deployed backend
     The server is deployed on the link : https://task1-utopia.onrender.com/
     GET request for fetching all users - https://task1-utopia.onrender.com/api/auth/
-<img src="output-screenshots/get.png" width="128"/>
+![Screenshot of get](https://myoctocat.com/assets/images/base-octocat.svg)
     POST request for register - https://assignment-utopia-deployment.onrender.com/api/auth/register
       JSON Body - {
                       "email" : "test1@123.com",
