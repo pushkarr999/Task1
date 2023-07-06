@@ -14,17 +14,32 @@
 
 ## Usage
 ### Using deployed backend
-    The server is deployed on the link : https://assignment-utopia-deployment.onrender.com/
-    GET request for fetching all users - https://assignment-utopia-deployment.onrender.com/api/auth/
+    The server is deployed on the link : https://task1-utopia.onrender.com/
+    GET request for fetching all users - https://task1-utopia.onrender.com/api/auth/
     POST request for register - https://assignment-utopia-deployment.onrender.com/api/auth/register
       JSON Body - {
-                      "email" : "test@123.com",
+                      "email" : "test1@123.com",
                       "fullName" : "Demo User",
                       "password" : "pwd@##123"
                   }
     POST request for login - https://assignment-utopia-deployment.onrender.com/api/auth/
       JSON Body - {
-                      "email" : "test@123.com",
+                      "email" : "test1@123.com",
                       "password" : "pwd@##123"
                   }
-    POST request for refreshing acces token - 
+    POST request for refreshing acces token - https://task1-utopia.onrender.com/api/auth/refresh
+      JSON Body - {
+                      "refreshToken" : "//a valid token"
+                  }
+    POST request for deleting user - https://task1-utopia.onrender.com/api/auth/delete
+      JSON Body - {
+                      "email" : "test1@123.com",
+                      "password" : "pwd@##123"
+                  }
+
+### For locally running the backend
+  After cloning the project.
+  run following commands -
+  npm install
+  npm run server
+  The server will run on PORT 5000
