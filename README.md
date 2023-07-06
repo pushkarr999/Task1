@@ -1,4 +1,4 @@
-![image](https://github.com/pushkarr999/Task1/assets/70885533/9097712a-f252-42ae-84ba-25efabbfccab)# Task-1
+# Task-1
 ## Features
   Following are the system design principles taken into consideration while building the authentication backend.
   - No duplication of email allowed.
